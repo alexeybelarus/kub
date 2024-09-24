@@ -42,4 +42,4 @@ jobs:
       run: terraform apply --auto-approve
 
     - name: Clean up
-      run: rm tfplan
+      run: rm terraform plan
