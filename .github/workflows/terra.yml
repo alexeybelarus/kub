@@ -41,5 +41,3 @@ jobs:
     - name: Apply Terraform changes
       run: terraform apply --auto-approve
 
-    - name: Clean up
-      run: rm terraform plan
