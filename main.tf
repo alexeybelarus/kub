@@ -3,6 +3,7 @@
 
 provider "aws" {
   region = var.region
+  profile = "terraform"
 }
 
 terraform {
@@ -11,6 +12,7 @@ terraform {
     key            = "d.tfstate"
     region         = "us-east-1"
     dynamodb_table = "stax"
+    profile = "terraform"
   }
 }
 
